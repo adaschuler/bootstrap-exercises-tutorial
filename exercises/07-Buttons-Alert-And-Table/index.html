@@ -1,16 +1,64 @@
 <!DOCTYPE html>
 <html>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width" />
+		<link
+			rel="stylesheet"
+			href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+			integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+			crossorigin="anonymous"
+		/>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+		<title>07 Buttons, Alert, Glyphicon and Table</title>
+	</head>
 
-<head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width" />
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
-    <title>07 Buttons, Alert, Glyphicon and Table</title>
-</head>
+	<body>
+		<div class="row">
+			<div class="col-6">
+				<h1>Is Hard to remember all the bootstrap elements</h1>
+				<br />
+				<p></p>
+				<h5>The rest seems easy because it was very well thourght! Dont you agree?</h5>
+				<br />
+				<button type="button" class="btn btn-success">Yes</button>
+				<button type="button" class="btn btn-danger">No</button>
+			</div>
 
-<body>
+			<div class="col-6">
+				<p>
+					<span class="glyphicon glyphicon-alert"></span>
 
-</body>
-
+					If you dont agree some of this people may slap you in the face:
+				</p>
+				<table class="table table-striped">
+					<thead>
+						<tr>
+							<th scope="col">First Name</th>
+							<th scope="col">Lastname</th>
+							<th scope="col">Email</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<th scope="row">John</th>
+							<td>Doe</td>
+							<td>John@example.com</td>
+						</tr>
+						<tr>
+							<th scope="row">Mary</th>
+							<td>Moe</td>
+							<td>Mary@example.com</td>
+						</tr>
+						<tr>
+							<th scope="row">July</th>
+							<td>Dooley</td>
+							<td>july@example.com</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+		</div>
+	</body>
 </html>
